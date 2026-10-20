@@ -1,5 +1,7 @@
 # PostgreSQL Payroll Optimization: 28 s → 0.2 s
 
+![28 s to 0.2 s, 140x faster](docs/cover.png)
+
 A reproducible case study of speeding up a monthly payroll stored procedure in PostgreSQL, **without changing a single number in the output**.
 
 It is based on work I did on a production payroll system for roughly 5,000 employees, where the monthly run took more than 10 minutes and ended up under 1 minute. That code and data belong to a client, so this repository rebuilds the same problem from scratch with a simplified schema and **fully synthetic data**. Every name, rate and amount here is generated.
